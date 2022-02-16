@@ -20,26 +20,30 @@
         android:rowCount="1"
         android:useDefaultMargins="true">
 
+        <!--work with odp width and fixed height otherwise images are not visible-->
         <ImageView
             android:id="@+id/dal_bati"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
             android:layout_columnWeight="1"
-            app:srcCompat="@drawable/dal_bati" />
+            android:layout_margin="5dp"
+            android:src="@drawable/dal_bati" />
 
         <ImageView
             android:id="@+id/gulab_jamun"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
             android:layout_columnWeight="1"
-            app:srcCompat="@drawable/gulab_jamun" />
+            android:layout_margin="5dp"
+            android:src="@drawable/gulab_jamun" />
 
         <ImageView
             android:id="@+id/gajar_halwa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
             android:layout_columnWeight="1"
-            app:srcCompat="@drawable/gajar_halwa" />
+            android:layout_margin="5dp"
+            android:src="@drawable/gajar_halwa" />
 
     </GridLayout>
 </RelativeLayout>
